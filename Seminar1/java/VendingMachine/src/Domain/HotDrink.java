@@ -9,11 +9,11 @@ public class HotDrink extends Product {
 
     /**
      * Констуктор класса
-     * @param int price - цена бутылки
-     * @param int place - положение в автомате
-     * @param String name - наименование
-     * @param long id - идентификатор продукта
-     * @param temperature - температура напитка
+     * @param price int - цена бутылки
+     * @param place int - положение в автомате
+     * @param name String - наименование
+     * @param id long - идентификатор продукта
+     * @param temperature float - температура напитка
      */
     public HotDrink (int price, int place, String name, long id, float temperature) {
         super(price, place, name, id);

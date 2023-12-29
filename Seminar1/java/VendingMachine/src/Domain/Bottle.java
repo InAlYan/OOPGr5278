@@ -6,11 +6,11 @@ public class Bottle extends Product {
 
     /**
      * Конструктор класса
-     * @param int price - цена
-     * @param int place - положение в автомате
-     * @param String name - наименование
-     * @param long id - идентификатор продукта
-     * @param float bottleVolume - объем
+     * @param price int - цена
+     * @param place int - положение в автомате
+     * @param name String - наименование
+     * @param id long - идентификатор продукта
+     * @param bottleVolume float - объем
      */
     public Bottle(int price, int place, String name, long id, float bottleVolume) {
         super(price, place, name, id);
@@ -28,7 +28,7 @@ public class Bottle extends Product {
 
     /**
      * Переопрелеляем метод toString для нового поля объем
-     * @return String строка описывающая экземпляр класса
+     * @return строка описывающая экземпляр класса
      */
     @Override
     public String toString() {
