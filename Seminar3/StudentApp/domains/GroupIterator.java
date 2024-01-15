@@ -7,7 +7,7 @@ public class GroupIterator implements Iterator<StudentsGroup> {
 
     // Поля
     private List<StudentsGroup> studentsGroupList;
-    int count;
+    private int count;
 
     /**
      * Конструктор
