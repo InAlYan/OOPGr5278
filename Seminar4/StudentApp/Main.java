@@ -6,15 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// 1) Создать класс TeacherService и реализовать аналогично проделанному на семинаре. // СДЕЛАНО
-// Подключить обобщенный интерфейс iPersonService. // СДЕЛАНО
-// Добавить метод вывода списка учителей отсортированного обобщенным классом PersonComparator // СДЕЛАНО
-
-// 2) Разработать обобщенный метод averageAge для подсчета среднего возраста студентов, учителей и работников. // СДЕЛАНО
-// Вывести результат работы класса на консоль. Метод сделать статическим в классе AccountController. // СДЕЛАНО
-//
-// (Задача со *) Переписать иерархию Person->Student/Worker->Teacher/Emploee в иерархию обобщенных типов.
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("---!!!UNIVERSITY!!!---\n");
